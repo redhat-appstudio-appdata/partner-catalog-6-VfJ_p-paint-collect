@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: partner-catalog-ljso
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/asaran-tenant/partner-catalog-6/partner-catalog-ljso@sha256:c011c9f8a094de5ddcbebc8cdefa5db1f331c2af13081aff6639962a3d1bed5a
+        name: my-java-springboot
+        resources: {}
+status: {}
