@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: partner-catalog-ljso
     spec:
       containers:
-      - image: java-springboot-image:latest
+      - image: quay.io/redhat-user-workloads/asaran-tenant/partner-catalog-6/partner-catalog-ljso@sha256:c011c9f8a094de5ddcbebc8cdefa5db1f331c2af13081aff6639962a3d1bed5a
         name: my-java-springboot
         ports:
         - containerPort: 8081
